@@ -1,5 +1,5 @@
 pris = float(input('skriv varans pris'))
-moms = float(input('skriv varans moms i procent'))
+moms = float(input('skriv varans moms'))
 
 emoms = pris / (moms / 100 + 1)
 

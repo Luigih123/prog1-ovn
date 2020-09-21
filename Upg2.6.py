@@ -1,7 +1,9 @@
-inmatning = int(input('skriv in antalet sekunder'))
-
-tim = inmatning % 3600
-min = inmatning % 60
-sek = inmatning % 1
-
-print(f'Timmar: {tim} \nMinuter: {min} \nSekunder: {sek}')
+svar = input('Antal sekunder: ')
+sek = int(svar)
+tim = sek // 3600
+sek = sek % 3600
+min = sek // 60
+sek = sek % 60
+print('Timmar:', tim)
+print('Minuter:', min)
+print('Sekunder:', sek)
